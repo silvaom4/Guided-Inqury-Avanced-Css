@@ -1,0 +1,44 @@
+
+    h1 {
+        color: white;
+        background: pink;
+        border: orange dotted 2px;
+        padding: 25px;
+        margin: 50px;
+        text-align: center;
+    }
+    
+    table {
+        background-color: white;
+    }
+
+    tr {
+        padding: 20px 450px;
+        display: block;
+        border: white 1px solid;
+    }
+tr:nth-child(even) {
+    background-color: red;
+
+}
+
+
+div img {
+    height: 330px;
+    width: 425px;
+    position: absolute;
+    left: 10px;
+    top: 240.8px;
+}
+
+@media screen and (max-width: 915px){
+    tr {
+        padding: 10px 225px;
+    }
+    div img {
+        position: absolute;
+        top: 220px;
+        height: 191px;
+        width: 212.5px;
+    }
+}
