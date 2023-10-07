@@ -44,12 +44,12 @@ tr:nth-child(even){
 }
 
 
-@media screen and (max-width: 1639px) and (min-width: 835px) {
+@media screen and (max-width: 1839px) and (min-width: 835px) {
     tr {
         padding: 50px;
     }
 }
-@media screen and (max-width: 836px) and (min-width: 416px) {
+@media screen and (max-width: 900px) and (min-width: 416px) {
     tr {
     padding: 25px;
     }
